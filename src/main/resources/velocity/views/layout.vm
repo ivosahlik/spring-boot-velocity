@@ -4,7 +4,7 @@
 </head>
 <body>
 <div>
-    #parse("/templates/header.vm")
+    #parse("/velocity/views/header.vm")
 </div>
 
 
@@ -16,7 +16,7 @@
 </div>
 
 <div>
-    #parse("/templates/footer.vm")
+    #parse("/velocity/views/footer.vm")
 </div>
 </body>
 </html>
